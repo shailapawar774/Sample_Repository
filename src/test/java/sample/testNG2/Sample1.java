@@ -17,6 +17,8 @@ public class Sample1 {
             System.out.println("Login Title is as Expected");
         } else {
             System.out.println("LOgin Title is Not as Expected");
+            System.out.println("LOgin Title is Not as Expected");
+
         }
         driver.quit();
     }
