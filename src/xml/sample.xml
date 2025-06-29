@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Regression"></include>
+        </run>
+    </groups>
+
+
+    <test verbose="2" preserve-order="true" name="F:/Workspace/Maven/src/test/java/sample/testNG2">
+        <classes>
+            <class name="sample.testNG2.Sample1">
+                <methods>
+                    <include name="verifyLoginPageTitle"/>
+                    <include name="verifyLoginURL"/>
+                </methods></class>
+        </classes></test>
+</suite>
