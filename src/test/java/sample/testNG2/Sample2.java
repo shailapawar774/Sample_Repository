@@ -42,5 +42,7 @@ public class Sample2 {
     @AfterSuite
     public void afterSuiteEx() {
         System.out.println("* After Suite *");
+        System.out.println("* After Suite1 *");
+
     }
 }
